@@ -32,7 +32,7 @@ const CountProvider = ({ children }) => {
 
   return <CountContext.Provider value={value}>{children}</CountContext.Provider>
 }
-
+ 
 const useCount = () => {
   // fill the default value of useContext
   const context = useContext(CountContext);
